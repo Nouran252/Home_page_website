@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PF_CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="PF_CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="PF_CSS/all.css">
+    <link rel="stylesheet" href="PF_CSS/PF_1.css">
+    <title>Home page</title>
+</head>
+<body>
+    <button id="S5_theme-switch">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" /></svg>
+    </button>
+    <!-- ************************************** YOUMNA **************************************-->
+<div class="page1">
+    <div class="header">
+        <h2>Furni. </h2>
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"></button>
+        <ul class="dropdown-menu">
+            <li class="t1list"><a href="#">Home</a></li>
+            <li class="t1list"><a href="#">Contact Us</a></li>
+            <li class="t1list" onclick="scrollTotask3()"><a href="#">About Us</a></li>
+            <li class="t1list"> <a href="#">Blog</a></li>
+            <li class="t1list"> <a href="#">Services</a></li>
+            <li><a href="#" onclick="scrollTotask6()"><img src="imgs/user.png" height="25" width="25"
+                draggable="false"></a></li>
+            <li><a href="#" onclick="scrollTotask2()"><img src="imgs/cart.png" height="25" width="25"
+                draggable="false"></a></li>
+        </ul>
+        </div>
+    </div> <!--header-->
+    <div class="t1content">
+        <h2>Modern Interior Design Studio</h2>
+        <br>
+        <p class="t1p"> Welcome to our website ,we are happy to serve you</p>
+        <button class="bttn1" onclick="scrollTotask2()">Shop Now</button> <!--buy-->
+        <button class="bttn2" onclick="scrollTotask5()">Explore</button> <!--for info-->
+    </div> <!--content-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <img class="Dotted" src="imgs/Dotted.png">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imgs/couch 1.png" class="d-block w-100 pic1" draggable="false">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="imgs/pro1.png" class="d-block w-100 pic1  pic5" style="margin-bottom: 750px; " draggable="false">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/pro2.png" class="d-block w-100 pic1" draggable="false">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="imgs/pro3.png" class="d-block w-100 pic1 pic4" draggable="false">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div> <!--bootstrap-->
+    </div> <!--page1-->
+    <script src="PF_JS/bootstrap.bundle.min.js"></script>
+    <script src="PF_JS/bootstrap.bundle.min.js.map"> </script>
+    <script>
+    function scrollTotask5() {  //info
+        document.getElementById("task5").scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollTotask3() {
+        document.getElementById("task3").scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollTotask2() {  //buy
+        document.getElementById("page2").scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollTotask6() {  //regestitation
+        document.getElementById("task6").scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+
+    <!-- ************************************** FARAH **************************************-->
+<div class="container" id="page2">
+    <div id="message" class="message" style="font-size: 20px">
+        <b class="masg">Item added to your cart!</b>
+    </div>
+    <div class="items" id="text">
+        <span class="span1">
+        <h1>
+            Crafted with<br />
+            excellent <br />material.
+        </h1>
+        Donec mattis port eros.aliquet<br />
+        fini risus interdum at.Nulla <br />
+        vivthe as it sar for us to know what was done.
+        </span>
+        <div><button class="farah">Explore</button></div>
+    </div>
+    <div class="items" id="one">
+        <img src="imgs/Nordic Chair.png" />
+        <div class="info1">Nordic Chair<br /><b>$50.00</b></div>
+        <div>
+        <button id="add" onclick="ShowMessage()">
+            <img src="imgs/plus2.png" alt="Add" style="transform: scale(0.8); margin-bottom: 13px" />
+        </button>
+        </div>
+    </div>
+    <div class="items" id="two">
+        <img src="imgs/Kruzo Aero Chair.png" />
+        <div class="info2">Kruzo Aero Chair<br /><b>$78.00</b></div>
+        <div>
+        <button id="add" onclick="ShowMessage()">
+            <img src="imgs/plus2.png" alt="Add" style="transform: scale(1.5)" />
+        </button>
+        </div>
+    </div>
+    <div class="items" id="three" style="margin-top: 25px">
+        <img src="imgs/Ergonomic Chair.png" />
+        <div class="info3">Ergonomic Chair<br /><b>$43.00</b></div>
+        <div>
+        <button id="add" onclick="ShowMessage()">
+            <img src="imgs/plus2.png" alt="Add" style="transform: scale(1.5)" />
+        </button>
+        </div>
+    </div> <!--items-->
+    </div> <!--container-->
+    <script>
+    function ShowMessage() {
+        const message = document.getElementById("message");
+        message.classList.add("show");
+        setTimeout(() => {
+        message.classList.remove("show");
+        }, 3000);
+    }
+    </script> 
+    <!-- ************************************** NOSAIBA **************************************-->
+    <div class="container3" id="task3">
+        <div class="img-container">
+            <img src="imgs/choose-us.png" alt="">
+        </div>
+        <div class="img2">
+            <img src="imgs/Dotted copy.png" alt="">
+        </div>
+        <div class="text-container">
+            <h1 class="n-h1">Why Choose Us</h1>
+            <p class="n-p1">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla <br> vivethe as it was for us to know what was to be done.</p>
+        </div>
+        <div class="features">
+            <div class="feature1">
+                <i class="fa-solid fa-truck-fast Nicon"></i>
+                <div class="icon"></div>
+                <h3 class="n-h1">Fast & Free Shipping</h3>
+                <p class="n-p1">Donec mattis porta eros, aliquet <br> finibus risus interdum at. Nulla <br> vivethe as it was.</p>
+            </div>
+            <div class="feature2">
+                <i class="fa-solid fa-bag-shopping  Nicon"></i>
+                <div class="icon1"></div>
+                <h3 class="n-h1">Easy to Shop</h3>
+                <p class="n-p1">Donec mattis porta eros, aliquet <br> finibus risus interdum at. Nulla <br>vivethe as it was.</p>
+            </div>
+            <div class="feature3">
+                <i class="fa-regular fa-life-ring  Nicon"></i>
+                <div class="icon2"></div>
+                <h3 class="n-h1">24/7 Support</h3>
+                <p class="n-p1">Donec mattis porta eros, aliquet  <br> finibus risus interdum at. Nulla <br> vivethe as it was.</p>
+            </div>
+            <div class="feature4">
+                <i class="fa-solid fa-retweet Nicon"></i>
+                <div  class="icon3"></div>
+                <h3 class="n-h1">Hassle Free Returns</h3>
+                <p class="n-p1">Donec mattis porta eros, aliquet <br>finibus risus interdum at. Nulla <br>vivethe as it was.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <button onclick="myfunction()" class="btt">Dark mode</button> -->
+    
+    <script> function myfunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    </script>
+    <!-- ************************************** NOURAN **************************************-->
+        <div class="container4">
+        <div class="containertxt" id="text">
+        <div class="h24">
+            <h2 class="N_h2">We help you make <br> Modern interior Design </h2>
+        </div>
+        <div class="txtcon">
+            <div class="slider1">
+            <div class="slides1">
+                <p class="N_p1"><b>Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know
+                    what was to be done, the this is a long post for the text. This small text has to be place here, since
+                    this is a place holder.</b> </p>
+                <p class="N_p1"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam enim nemo adipisci harum laborum
+                    doloribus natus, quisquam soluta, error, facilis vitae iusto nostrum nulla voluptatum et
+                    praesentium!</b></p>
+                <p class="N_p1"><b>Sapiente excepturi, consequatur ipsa odio laborum perspiciatis deserunt amet dolorem, molestiae,
+                    fuga tempora? Inventore cupiditate incidunt esse obcaecati unde cum neque necessitatibus. Lorem, ipsum
+                    dolor sit amet. </b></p>
+            </div>
+            <button class="btn btn-primary prevn" onclick="prevSlide()">&#10094</button>
+            <button class="btn btn-primary nextn" onclick="nextSlide()">&#10095</button>
+            </div>
+            <div class="dlist4">
+            <ul class="list4">
+                <li>Donec mattis porta eros, let aliquet finibus </li>
+                <li>Donec mattis porta eros, let aliquet finibus </li>
+                <li>Donec mattis porta eros, let aliquet finibus </li>
+                <li>Donec mattis porta eros, let aliquet finibus </li>
+            </ul>
+            </div>
+            <button class="contact" onclick="scrollTotask7()">Contact us</button>
+            <!-- <button class="dark" onclick="darkfun()">Dark Mode</button> -->
+        </div>
+        </div>
+        <div class="images4">
+        <div class="img41"></div>
+        <div class="img42"></div>
+        <div class="img43"></div>
+        <div class="img44"></div>
+        </div>
+    </div>
+    <script>
+        function darkfun(){
+        var element = document.body;
+        element.classList.toggle("darkcon");
+    }
+    function scrollTotask7() {  //contact us
+        document.getElementById("task7").scrollIntoView({ behavior: 'smooth' });
+    }
+
+    const S4_slides = document.querySelectorAll(".slides1 p");
+    let slideIndex = 0;
+    let intervalId = null;
+    
+    document.addEventListener("DOMContentLoaded", initializeSlider);
+    function initializeSlider(){
+        if(S4_slides.length > 0){
+            S4_slides[slideIndex].classList.add("displaySlide");
+            intervalId = setInterval(nextSlide, 3000);
+        }
+    }
+    
+    function showSlide(index){
+        if(index >= S4_slides.length){
+            slideIndex = 0;
+        }
+        else if(index < 0){
+            slideIndex = S4_slides.length - 1;
+        }
+    
+        S4_slides.forEach(slide => {
+            slide.classList.remove("displaySlide");
+        });
+        S4_slides[slideIndex].classList.add("displaySlide");
+    } 
+    function prevSlide(){
+        
+        slideIndex--;
+        showSlide(slideIndex);
+    }
+    
+    function nextSlide(){     
+        slideIndex++;
+        showSlide(slideIndex);
+    }
+    </script> 
+    <!-- ************************************** SARA **************************************-->
+<div class="S5_container" id="task5">
+    <div class="S5_item">
+        <div class="S5_image_box">
+        <div class="S5_background"></div>
+        <img class="S5_image" src="imgs/product-1.png" alt="chair">
+        </div>
+        <div class="S5_ch_details">
+        <div class="S5_ch_name">Nordic Chair</div>
+        <p class="S5_ch_ph">Elegant and comfortable, this chair is designed to elevate any space</p>
+        <a class="S5_link">Read more</a>
+        </div>
+    </div>
+    <div class="S5_item">
+        <div class="S5_image_box">
+        <div class="S5_background"></div>
+        <img class="S5_image" src="imgs/product-2.png" alt="chair">
+        </div>
+        <div class="S5_ch_details">
+        <div class="S5_ch_name">Kruzi Aero</div>
+        <p class="S5_ch_ph">Elegant and comfortable, this chair is designed to elevate any space</p>
+        <a class="S5_link">Read more</a>
+        </div>
+    </div>
+    <div class="S5_item">
+        <div class="S5_image_box">
+        <div class="S5_background"></div>
+        <img class="S5_image" src="imgs/product-3.png" alt="chair">
+        </div>
+        <div class="S5_ch_details">
+        <div class="S5_ch_name">Ergonomic Chair</div>
+        <p class="S5_ch_ph">Elegant and comfortable, this chair is designed to elevate any space</p>
+        <a class="S5_link">Read more</a>
+        </div>
+    </div>
+    </div>
+    <h1 class="S5_h1">Testimonials</h1>
+    <div class="S5_slider">
+    <div class="S5_slides">
+        <div class="S5_content">
+        <p>"I bought a new office chair from this site,
+            and it's been a game-changer for my work-from-home setup.
+            The ergonomic design provides excellent support,
+            and the adjustable features ensure that I can sit comfortably for hours."
+        </p>
+        <img src="imgs/Person_11.png" alt="" class="S5_image">
+        <div class="S5_details">
+            <span class="S5_name">Jacob Anthony </span>
+            <span class="S5_job">Mechanical Engineer</span>
+        </div>
+        </div>
+        <div class="S5_content">
+        <p>"After months of searching for the perfect dining table,
+            I finally found it here, and it exceeded all my expectations.
+            The craftsmanship is outstanding, with attention to detail evident in every corner.
+            The wood finish is stunning,
+            adding a touch of elegance to my dining room."
+        </p>
+        <img src="imgs/Person_12.png" alt="" class="S5_image">
+        <div class="details">
+            <span class="S5_name">Matthew Clark</span>
+            <span class="S5_job">Photographer</span>
+        </div>
+        </div>
+        <div class="S5_content">
+        <p>"I recently purchased a sectional sofa from this website,
+            and I couldn't be more thrilled with my purchase.
+            What impressed me most was the ease of the purchasing
+            process and the customer service team's responsiveness.
+            Delivery was prompt, and the assembly was straightforward.
+            This is now my go-to site for all my furniture needs!"
+        </p>
+        <img src="imgs/Person_13.png" alt="" class="S5_image">
+        <div class="S5_details">
+            <span class="S5_name">William Henry</span>
+            <span class="S5_job">Graphic Designer</span>
+        </div>
+        </div>
+    </div>
+    <button class="S5_prev" onclick="S5_prevSlide()">&#10094</button>
+    <button class="S5_next" onclick="S5_nextSlide()">&#10095</button>
+    </div>
+    <script src="PF_JS/Section_5.js"></script>
+    <script>
+    let darkmode = localStorage.getItem('darkmode')
+    const themeSwitch = document.getElementById('S5_theme-switch')
+
+    const enableDarkmode = () => {
+        document.body.classList.add('darkmode')
+        localStorage.setItem('darkmode', 'active')
+    }
+
+    const disableDarkmode = () => {
+        document.body.classList.remove('darkmode')
+        localStorage.setItem('darkmode', null)
+    }
+
+    if (darkmode === "active") enableDarkmode()
+
+    themeSwitch.addEventListener("click", () => {
+        darkmode = localStorage.getItem('darkmode')
+        darkmode !== "active" ? enableDarkmode() : disableDarkmode()
+    })
+    </script>
+    <!-- ************************************** MARIAM **************************************-->
+    <div class="m-container" id="task6">
+        <div class=" m-parent">
+            <div class="par">
+            <p class="f"><b>Recent Blog</b> </p>
+            <p class="s">View All Posts </p>
+            </div>
+            <div class="m-div">
+            <div class="item1"> <img src="imgs/post-1 1.png" alt="wallpaper" width="100%">
+                <p><br><br><b>First Time Home Owner Ideas</b><br>by <b>Nana Ama</b> on <b>Nov 18th,2022</b></p>
+            </div>
+            <div class="item2"> <img src="imgs/post-2 1.png" alt=" wallpaper" width="100%">
+                <p><br><br><b>First Time Home Owner Ideas</b><br>by <b>Nana Ama</b> on <b>Nov 18th,2022</b></p>
+            </div>
+            <div class="item3"><img src="imgs/post-3 1.png" alt="wallpaper" width="100%">
+                <p><br><br><b>First Time Home Owner Ideas</b><br>by <b>Nana Ama</b> on <b>Nov 18th,2022</b></p>
+            </div>
+            </div>
+            <div class="chair"><img src="imgs/sofa_1.png" alt="wallpaer"></div>
+            <div class="mail"> <img src="imgs/email.png" height="35" width="35" alt="wallpaper"> <b>Subscribe to
+                Newsletter</b>
+            <form name="myform" id="dataform" onsubmit="return validation()">
+                <!-- <label for="fname">Name:</label> -->
+                <input type="text" id="fname" name="fname" placeholder="Enter your name">
+                <!-- <label for="mail">Email:</label> -->
+                <input type="email" id="mail" name="mail" placeholder="Enter your Email">
+                <button class="m-btn" type="submit"><i class="fa-brands fa-telegram tele"></i></button>
+                <!-- <img src="imgs/telegram.png" height="70" width="70"> -->
+            </form>
+            </div>
+            <!-- <button class="m-btn" onclick="myfunction()"> <img src="imgs/brightness.png" height="70" width="70"></button> -->
+        </div>
+        </div>
+        <script>
+        function myfunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        function validation() {
+            const form = document.getElementById('dataForm');
+            let x = document.forms["myform"]["fname"].value;
+            let mail = document.forms["myform"]["mail"].value;
+            if (x == "") {
+            alert(" Name must be filled out ");
+            return false;
+            }
+            if (mail == "") {
+            alert("Email must be filled out");
+            return false; // Prevent form submission
+            }
+            alert("Form submitted successfully");
+            form.reset();
+        }
+        </script>
+    <!-- ************************************** RAWAN **************************************-->
+    <footer>
+        <div class="footer-content">
+        <div class="footer-logo">
+            <h2>Furni.</h2>
+            <p>
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
+            vivethe as it was for us to know what was to be done. This small
+            text has to be placed here, since this is a demonstration.
+            </p>
+            <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="link-column">
+            <h4>About us</h4>
+            <p>Services</p>
+            <p>Blog</p>
+            <p>Contact us</p>
+            </div>
+            <div class="link-column">
+            <h4>Support</h4>
+            <p>Knowledge base</p>
+            <p>Live chat</p>
+            </div>
+            <div class="link-column">
+            <h4>Jobs</h4>
+            <p>Our team</p>
+            <p>Leadership</p>
+            <p>Privacy Policy</p>
+            </div>
+            <div class="link-column">
+            <h4>Nordic Chair</h4>
+            <p>Kruzo Aero</p>
+            <p>Ergonomic</p>
+            </div>
+        </div>
+        </div>
+        <div class="hr"></div>
+        <div class="footer-bottom">
+        <p class="p1">&copy; 2022 degr8ft87@gmail.com. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
