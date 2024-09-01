@@ -883,7 +883,7 @@ ul.list4 li::marker {
     transform: scale(1.1,1.1);
 }
 
-.dark{
+/* .dark{
     position: absolute;
     text-align: center;
     font-size: smaller;
@@ -900,7 +900,7 @@ ul.list4 li::marker {
 .dark:hover{
 
     transform: scale(1.1,1.1);
-}
+} */
 
 .nextn{
     position: absolute;
